@@ -1,0 +1,27 @@
+.myPageDivOne{
+  background-color: #ffffff6b;
+  box-shadow: 3px 6px 20px hsla(0, 0%, 0%, 16%);
+  border-radius: 3px;
+  padding: 5%;
+}
+.title{
+  text-align: center;
+  color: #336387;
+  border-bottom: 1px solid;
+}
+.myPageDivOne ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+  padding-top: 3%;
+}
+.myPageDivOne ul li{
+  list-style: none;
+}
+.block2{
+  justify-content: center;
+}
+.myPageDivOne ul li a{
+  font-size: 18px;
+  color: #336387;
+}

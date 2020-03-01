@@ -1,0 +1,88 @@
+.authForm {
+  width: 100%;
+  box-shadow: 3px 6px 20px hsla(0, 0%, 0%, 16%);
+  border-radius: 7px;
+  background-color: #ffffff59;
+  padding: 12px 0;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.authForm h1 {
+  text-align: center;
+  color: #336387;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 35px;
+  text-transform: uppercase;
+}
+.authForm .form-group {
+  margin: 30px;
+}
+.authForm input {
+  border: 0;
+  border-bottom: 1px solid #336387;
+  background: none;
+  border-radius: 0;
+}
+.authForm input:focus {
+  border-bottom: 2px solid #336387;
+  box-shadow: none;
+  background-color: transparent;
+}
+.authForm input[type="submit"] {
+  width: 30%;
+  border: none;
+  background-color: hsla(0, 0%, 100%, 61%);
+  box-shadow: 3px 6px 20px rgba(0, 0, 0, 16%);
+  margin: 10px auto 30px;
+  border-radius: 5px;
+  color: #336387;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+
+.authForm .alert {
+  text-align: center;
+}
+.authForm input::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 20px;
+  color: #336387;
+  font-weight: 500;
+}
+
+.authForm input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 20px;
+  color: #336387;
+  font-weight: 500;
+}
+
+.authForm input::placeholder {
+  font-size: 20px;
+  color: #336387;
+  font-weight: 500;
+}
+.authForm .loading {
+  margin: auto;
+  width: 10%;
+  height: 10%;
+}
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border-color: #336387 !important;
+  box-shadow: none !important;
+}
+.form-control.is-valid,
+.was-validated .form-control:valid {
+  border-color: #336387 !important;
+}
+.form-control.is-valid:focus,
+.was-validated .form-control:valid:focus {
+  border-color: #336387 !important;
+  box-shadow: none !important;
+}
