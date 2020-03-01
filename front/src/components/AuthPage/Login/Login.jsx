@@ -40,7 +40,7 @@ class Login extends Component {
                                                     error={item.error}
                                                     placeholder={item.placeholder}
 
-                                                /> : <Fragment key={`${item.id} login`} />
+                                                /> : <Fragment key={`${item.name} login`} />
                                         })}
                                         {errors && <Alert color="danger">{errors}</Alert>}
                                         <Input type='submit' value='Sign In' disabled={!loginDone} className={errors && 'is-invalid'} />
